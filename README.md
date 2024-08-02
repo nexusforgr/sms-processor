@@ -6,8 +6,14 @@
 
 Check the release page for installers: https://github.com/nexusforgr/sms-processor/releases/
 
-For Android: https://github.com/nexusforgr/sms-processor/releases/download/beta/smsprocessor-0.1-arm64-v8a_armeabi-v7a-debug.apk
-For Windows: https://github.com/nexusforgr/sms-processor/releases/download/beta/main.exe
+For Android:
+
+https://github.com/nexusforgr/sms-processor/releases/download/beta/smsprocessor-0.1-arm64-v8a_armeabi-v7a-debug.apk
+
+
+For Windows:
+
+https://github.com/nexusforgr/sms-processor/releases/download/beta/main.exe
 
 ## Getting Started
 

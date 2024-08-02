@@ -2,6 +2,10 @@
 
 **SMS Processor** is an effort to create encrypted SMS messages.
 
+## Installers
+
+Check the release page for installers: https://github.com/nexusforgr/sms-processor/releases/tag/binary
+
 ## Getting Started
 
 Follow these instructions to set up and run the SMS Processor on your local machine.

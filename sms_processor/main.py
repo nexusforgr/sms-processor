@@ -1,5 +1,6 @@
 import kivy
 from kivy.app import App
+from kivy.metrics import dp
 from kivy.uix.label import Label
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.textinput import TextInput
@@ -11,13 +12,13 @@ class EncodedBox(TextInput):
     def __init__(self):
         super(EncodedBox, self).__init__()
         self.multiline = True
-        self.hint_text = "Decode encrypted SMS"
+        self.hint_text = "Enter encrypted SMS"
 
 
 class KeyInput(TextInput):
     def __init__(self):
         super(KeyInput, self).__init__()
-        self.hint_text = "Enter key"
+        self.hint_text = "Enter your secret password"
         self.password = True
         self.multiline = False
 
@@ -33,7 +34,7 @@ class ControlBox(BoxLayout):
         super(ControlBox, self).__init__()
         self.orientation = "horizontal"
         self.size_hint_y = None
-        self.height = 40
+        self.height = dp(40)
 
         self.key_input = KeyInput()
         self.convert_button = ConvertButton()
@@ -46,7 +47,7 @@ class DecodedBox(TextInput):
     def __init__(self):
         super(DecodedBox, self).__init__()
         self.multiline = True
-        self.hint_text = "Create encrypted SMS"
+        self.hint_text = "Enter normal SMS to encrypt (Leave empty for result)"
 
 
 class Container(BoxLayout):

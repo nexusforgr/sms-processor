@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sms-processor"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "sms_processor"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pycryptodome = "^3.20.0"
+kivy = "^2.3.0"
+buildozer = "^1.5.0"
+cython = "^3.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
